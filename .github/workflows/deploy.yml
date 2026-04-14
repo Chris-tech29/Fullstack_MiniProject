@@ -37,4 +37,4 @@ jobs:
  
       - name: Deploy to S3
         run: |
-          aws s3 cp frontend/build/ s3://frontend-bucket-0fbdbc1/ --recursive
+          aws s3 cp frontend/build/ s3://frontend-bucket-de8082b/ --recursive
